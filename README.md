@@ -1,5 +1,5 @@
 ##Permalist: A Persistent To-Do List Application 📝
-     Permalist is a simple yet efficient to-do list application that lets users manage their tasks with ease. Unlike temporary lists, Permalist ensures that your tasks are stored in a 
+     Permalist is a simple yet efficient to-do list application that lets users easily manage their tasks. Unlike temporary lists, Permalist ensures that your tasks are stored in a 
      database, so your progress is never lost.
 
 #Features 🚀
@@ -14,7 +14,7 @@
      Data is stored in a PostgreSQL database for persistence.
 
   . Frontend:
-     Renders a dynamic to-do list using EJS for templates, allowing seamless interaction with tasks.
+     Renders a dynamic to-do list using EJS for templates, allowing seamless task interaction.
 
   . Database:
      PostgreSQL stores all tasks with their unique IDs and titles for easy retrieval and updates.
@@ -26,12 +26,12 @@
   . EJS: For rendering dynamic web pages.
   . Body-Parser: For handling form data.
   . CSS: For styling the application.
-  . Setup Instructions 🖥️
-#Clone the repository:
+  . Setup Instructions. 
+  #🖥️Clone the repository:
     ```bash
          git clone https://github.com/Mohammed-Farida23/Permalist.git
-          cd Permalist
- #Install dependencies:
+          cd Permalist.```
+  Install dependencies:
     ```bash
          npm install```
 #Configure the database:
@@ -47,24 +47,24 @@
 
 
 #Update database credentials:
-      . Open index.js and update the database configuration:
-  ```javascript
+ . Open index.js and update the database configuration:
+    ```javascript
        const db = new pg.Client({
        user: "your_username",
         host: "localhost",
         database: "Permalist",
         password: "your_password",
        port: 5432,
-    });
+    });```
 
   #Run the application:
- bash
+       ```bash
           node index.js
           Access the app:
-          Open your browser and visit http://localhost:3000.
+          Open your browser and visit http://localhost:3000.```
 
-     #Project Structure 📂
-   php
+ #Project Structure 📂
+   ```php
 
      Permalist/
      ├── public/             # Static files (CSS, images)
@@ -73,11 +73,7 @@
      ├── index.js            # Main server file
      ├── package.json        # Project metadata and dependencies
      └── README.md           # Project documentation
-
-
-
-
-
+```
 **Future Enhancements 🌟**
   . Add user authentication for personalized task lists.
   . Implement task categories or priorities.
